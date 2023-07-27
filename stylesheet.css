@@ -1,0 +1,13 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: garamond;
+}
+
+.nav-alinear {
+    list-style: none;
+    display: inline-block;
+    margin: 0 24px;
+    font-size: 7px;
+    
+}
