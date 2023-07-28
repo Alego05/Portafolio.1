@@ -6,8 +6,31 @@
 
 .nav-alinear {
     list-style: none;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+    font-family: garamond;
+    color: beige;
+}
+
+.nav-alinear li{
     display: inline-block;
-    margin: 0 24px;
-    font-size: 7px;
+    padding: 10px;
     
+}
+
+img{
+    width: 100%;
+}
+
+.fondo{
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.imagenballena{
+    background-color: rgb(100,100,100) ;
+    background-blend-mode: saturation;
+    background-image: -moz-linear-gradient(50px);
+    opacity: 1;
 }
