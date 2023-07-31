@@ -16,7 +16,6 @@
 .nav-alinear li{
     display: inline-block;
     padding: 10px;
-    
 }
 
 img{
@@ -29,8 +28,20 @@ img{
 }
 
 .imagenballena{
-    background-color: rgb(100,100,100) ;
-    background-blend-mode: saturation;
-    background-image: -moz-linear-gradient(50px);
-    opacity: 1;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.texto1{
+    position: absolute;
+    left: 15px;
+    right: 50px;
+    top: 60%;
+    transform: translate(-10px,-5px);
+}
+
+.imaApps{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);   
 }
