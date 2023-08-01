@@ -1,5 +1,11 @@
-const btnCambio = document.querySelector ("cambioColor");
+function cambiarCSS() {
+    let darkmode = "dark-mode";
+    document.getElementById("light-mode").href = darkmode;
+  }
 
-btnCambio.addEventListener('click',() => {
-    document.head.
-});
+  function cambiarCSS() {
+    let lightmode = "light-mode";
+    document.getElementById("dark-mode").href = lightmode;
+  }
+
+  

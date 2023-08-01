@@ -25,10 +25,10 @@
 .nav-alinear {
     list-style: none;
     font-size: 20px;
-    background-color: rgb(21, 20, 20);
+    background-color:beige;
     text-align: center;
     font-family: garamond;
-    color: beige;
+    color: rgb(21, 20, 20);
     padding: none;
 }
 
@@ -42,8 +42,9 @@ img{
 }
 
 .fondo{
-    background-color: beige;
+    background-color: rgb(21, 20, 20);
     border-radius: 10px;
+    color: beige;
 }
 
 .imagenballena{
@@ -111,40 +112,41 @@ hr{
 
 .registro{
     width: 80%;
-    background-color:rgb(21, 20, 20);
+    background-color:beige;
     padding: 50px;
     margin: auto;
     border-radius: 4px;
     font-family: garamond;
-    box-shadow: 7px 13px 37px #000;
+    box-shadow: 7px 13px 37px beige;
 }
 
 .controles{
     width: 100%;
-    background: rgb(21, 20, 20);
+    background: beige;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid beige;
+    border: 1px solid rgb(21, 20, 20);
     font-family: garamond;
     font-size: 18px;
-    color: beige;
+    color: rgb(21, 20, 20);
 
 }
 
 .boton{
     width: 100%;
-    background-color: beige;
+    background-color: rgb(21, 20, 20);
     border: none;
     padding: 12px;
-    color: black;
+    color: beige;
     margin: 16px 0;
     font-size: 16px;
     display: inline-block;
+    padding: 10px;
 }
 
 .cambio{
-    background: beige;
+    background: rgb(21, 20, 20);
     border-radius: 1000px;
     border: none;
     position: relative;
@@ -153,28 +155,26 @@ hr{
     outline: none;
     display: inline-block;
     padding: 10px;
-    display: inline-block;
-    padding: 10px;
         
     ::after {
         content: "";
         display: block;
-        width: 10px;
-        height: 10px;
+        width: 30px;
+        height: 30px;
         position: absolute;
-        background: beige;
+        background: rgb(21, 20, 20);
         top: 0;
         left: 0;
         right: unset;
         border-radius: 100px;
         transition: .3s ease all;
-        box-shadow: 0px 0px 2px 2px black;
+        box-shadow: 0px 0px 2px 2px beige;
         display: inline-block;
     padding: 10px;
     }
     .active{
-        background: orange;
-        color: black;
+        background: rgb(21, 20, 20);
+        color: beige;
         ::after{
             right: 0;
             left: unset;
