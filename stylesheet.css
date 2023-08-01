@@ -2,15 +2,34 @@
     display: flex;
     justify-content: center;
     font-family: garamond;
+    padding: 2%;
+    position: relative;
+}
+.titulo4{
+    display: flex;
+    justify-content: center;
+    font-family: garamond;
+    padding: 2%;
+    position: relative;
+    top: -30px;
+}
+
+.titulo3{
+    display: flex;
+    justify-content: center;
+    font-family: garamond;
+    position: relative;
+    top: 20px;
 }
 
 .nav-alinear {
     list-style: none;
     font-size: 20px;
-    background-color: black;
+    background-color: rgb(21, 20, 20);
     text-align: center;
     font-family: garamond;
     color: beige;
+    padding: none;
 }
 
 .nav-alinear li{
@@ -29,19 +48,95 @@ img{
 
 .imagenballena{
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.33;
 }
 
 .texto1{
     position: absolute;
-    left: 15px;
-    right: 50px;
-    top: 60%;
-    transform: translate(-10px,-5px);
+    top: 100%;
+    margin: 18px;
+    padding: 13px;
+    transform: translate(10px,15px);
+    font-family: sans-serif;
 }
 
 .imaApps{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);   
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;  
+    grid-area: 2/3/4/6;
+}
+
+.recuadro{
+    margin: 10px;
+    color: black;
+}
+
+hr{
+    padding: 5px;
+    margin: 10px;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    font-family: garamond;
+    padding: 2%;
+    position: absolute;
+    left: 15px;
+    right: 50px;
+    top: 10%;
+}
+
+.texto2{
+    position:auto;
+    width: auto;
+    height: auto;
+    padding: 12%;
+    transform: translate(10px,15px);
+    font-family: sans-serif;
+}
+
+.cambio{
+    border: none;
+    border-radius: 10000px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+}
+
+.registro{
+    width: 80%;
+    background-color:rgb(21, 20, 20);
+    padding: 50px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: garamond;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.controles{
+    width: 100%;
+    background: rgb(21, 20, 20);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid beige;
+    font-family: garamond;
+    font-size: 18px;
+    color: white;
+
+}
+
+.boton{
+    width: 100%;
+    background-color: beige;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
 }
